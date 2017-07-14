@@ -1,6 +1,7 @@
 dose <- as.numeric(levels(as.factor(ToothGrowth$dose)))
 supp <- levels(ToothGrowth$supp)
 
+
 data <- list()
 
 Map(function(s) {
